@@ -1,0 +1,59 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.jalaj.gateway",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "5.0.2",
+    "applicationType": "gateway",
+    "baseName": "gateway",
+    "packageName": "com.jalaj.gateway",
+    "packageFolder": "com/jalaj/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": "spring-websocket",
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "consul",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "37c61888934fa8de899402e720ff6b2da5f8a099",
+    "clientFramework": "angularX",
+    "useSass": true,
+    "clientPackageManager": "yarn",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-nav-element",
+        "version": "2.0.3"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      },
+      {
+        "name": "generator-jhipster-social-login-api",
+        "version": "0.0.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "fr",
+      "de",
+      "hi",
+      "es"
+    ]
+  }
+}
